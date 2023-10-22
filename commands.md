@@ -6,3 +6,11 @@ docker volume ls <- list all the files on docker. looking for something similar 
 docker-compose down <- shuts down the container. Cannot delete the volume on a running container>
 docker volume rm recipe-app-api_dev-db-data <- removes the database data>
 docker-compose run --rm app sh -c "python manage.py wait_for_db && python manage.py migrate" <- rebuilds the container and adds the Django migrations>
+
+# Add a python package:
+add package to requirements.txt
+docker-compose build
+
+
+# Music:
+Howling by Gunnar Olsen
