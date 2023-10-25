@@ -133,7 +133,7 @@ class PrivateRecipeApiTests(TestCase):
         )
 
         payload = {"title": "New recipe title"}
-        url = detail_url(recipe["id"])
+        url = detail_url(recipe.id)
         res = self.client.patch(url, payload)
 
         self.assertEqual(res.status_code, status.HTTP_200_OK)
