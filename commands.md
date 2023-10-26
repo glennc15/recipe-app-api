@@ -14,10 +14,11 @@ docker-compose build
 # Make a model (work flow):
 1. write a test.
 2. Create the model, inherit form Models.model
-3. register the model with the [app] > admin.py > admin.site.register(models.Recipe)
+3. register the model with the [app] > admin.py > admin.site.register(models.Recipe) <makes the model available for admin site>
 4. run manage.py makemigrations. Note: no need to migrate when testings (the test runner will make all migrations)
 
 # Music:
 Howling by Gunnar Olsen
 New Year by bad snacks
 Benji by Dyalla
+Lifelong by Anno Domini Beats
